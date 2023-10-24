@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# Computer Memory
+this is a smiluation of a Random access memory operation when it is in process of saving a variable , this project has educationel perpous you may fork this repository and change the code as you like
+Ps: this is not done yet 
+# Demo 
+what we have implemented so far 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div style="display:flex; gap:5px;">
+     <img width="47%" height="250px" src="https://github.com/abderrahmaneGasmi/computer-memory/assets/119729705/968f74bb-1cd7-437a-a2c1-a45e626660df"/>
+       <img width="47%" height="250px" src="https://github.com/abderrahmaneGasmi/computer-memory/assets/119729705/eaf2672e-593c-4c33-bb1d-4dae723d1d3b"/>
+</div>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 💻 Running the project
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+to run this project 
+Clone this repository :
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+git clone [https://github.com/abderrahmaneGasmi/computer-memory]
+cd computer-memory
+```
+Install packages :
+```
+npm i
+```
+When installation is complete, run command :
+```
+npm run dev
